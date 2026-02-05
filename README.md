@@ -155,14 +155,6 @@ Benefits:
 These will be added in later phases.
 
 ---
-
-## 🛣️ Roadmap
-
-* **Phase-1:** OOPS + CLI + Architecture ✅
-* **Phase-2:** File / Database persistence
-* **Phase-3:** FastAPI REST backend
-* **Phase-4:** AI/ML integration
-
 ---
 
 ## ▶️ How to Run
