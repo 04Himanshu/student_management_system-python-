@@ -1,6 +1,3 @@
-Below is the **pure `README.md` content written strictly in Markdown syntax**.
-You can copy-paste this directly into a `README.md` file.
-
 ---
 
 ````md
