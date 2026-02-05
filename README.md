@@ -1,8 +1,6 @@
-# 📘 Student Management System (Phase-1)
+# 📘 Student Management System 
 
 A **Python CLI-based Student Management System** designed to learn **Object-Oriented Programming (OOPS)** and **clean architecture principles**.  
-This project is part of a structured journey from **Python fundamentals → backend development → AI/ML readiness**.
-
 ---
 
 ## 🎯 Project Objective
