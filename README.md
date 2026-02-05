@@ -1,14 +1,6 @@
-Below is the **pure `README.md` content written strictly in Markdown syntax**.
-You can copy-paste this directly into a `README.md` file.
-
----
-
-````md
-# 📘 Student Management System (Phase-1)
+# 📘 Student Management System 
 
 A **Python CLI-based Student Management System** designed to learn **Object-Oriented Programming (OOPS)** and **clean architecture principles**.  
-This project is part of a structured journey from **Python fundamentals → backend development → AI/ML readiness**.
-
 ---
 
 ## 🎯 Project Objective
@@ -163,14 +155,6 @@ Benefits:
 These will be added in later phases.
 
 ---
-
-## 🛣️ Roadmap
-
-* **Phase-1:** OOPS + CLI + Architecture ✅
-* **Phase-2:** File / Database persistence
-* **Phase-3:** FastAPI REST backend
-* **Phase-4:** AI/ML integration
-
 ---
 
 ## ▶️ How to Run
@@ -197,4 +181,3 @@ Run from the project root directory.
 > This project focuses on *how to design software*, not just how to write code.
 
 Understanding this structure makes it easier to move into backend frameworks and AI systems.
-
