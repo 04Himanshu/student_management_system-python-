@@ -15,3 +15,21 @@ class Student:
             f"Course: {self.course} | "
         )
     
+    def to_dict(self) -> dict:
+        return {
+            "roll_no": self.roll_no,
+            "name": self.name,
+            "age": self.age,
+            "marks": self.marks,
+            "course": self.course
+        }
+
+    @staticmethod
+    def from_dict(data: dict):
+        return Student(
+            int(data["roll_no"]),
+            data["name"],
+            int(data["age"]),
+            int(data["marks"]),
+            data["course"]
+        )

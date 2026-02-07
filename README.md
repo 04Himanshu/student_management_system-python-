@@ -15,7 +15,7 @@ The purpose of this project is to:
 This is not just a CLI app — it is an **architecture-focused learning project**.
 
 ---
-
+ 
 ## 🧠 Concepts Covered
 
 - Classes & Objects
@@ -43,7 +43,13 @@ student_management/
 │   ├── validators.py
 │   ├── input_helper.py
 │   └── constants.py
-│
+|  
+├── repository/
+|   └── studentRepository.py
+|
+├── data/ 
+|   └── students.json
+|
 └── main.py
 ````
 
@@ -97,14 +103,21 @@ Contains reusable helper modules that are independent of business logic.
 * Handles safe user input
 * Avoids repeated try-except blocks
 
-**constants.py**
+---
 
-* Stores shared constants
-* Avoids magic numbers
+### `data/`
+**students.json**
+* used store data in files/DB
 
 ---
 
-### `main.py`
+### `repository/`
+**studentRepository.json**
+* Repository is responsible for saving and loading data, nothing else.
+
+---
+
+### `main.py`  
 
 * Entry point of the application
 * Handles CLI interaction
@@ -113,9 +126,9 @@ Contains reusable helper modules that are independent of business logic.
 
 **Responsibility:**
 Interacts with the user only.
-
----
-
+ 
+--- 
+  
 ## 🔒 Encapsulation Strategy
 
 * Student data is encapsulated inside the `Student` class
@@ -145,7 +158,7 @@ Benefits:
 
 ---
 
-## 🚫 Current Limitations (Phase-1)
+## 🚫 Limitations (Phase-1)
 
 * No database or file storage
 * No REST APIs
@@ -155,11 +168,14 @@ Benefits:
 These will be added in later phases.
 
 ---
----
+
+## Current Phase-2
+
+* Add data into dictionary and then store into .json file.
 
 ## ▶️ How to Run
 
-```bash
+```Python
 python main.py
 ```
 

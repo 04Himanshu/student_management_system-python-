@@ -1,0 +1,16 @@
+[
+    {
+        "roll_no": 8,
+        "name": "Himanshu Singh",
+        "age": 23,
+        "marks": 75,
+        "course": "B.Tech"
+    },
+    {
+        "roll_no": 23,
+        "name": "Satendra Rathore",
+        "age": 22,
+        "marks": 76,
+        "course": "BA"
+    }
+] 
